@@ -25,3 +25,7 @@ undefined == null
 undefined === null
 null == "\n0\n"
 null === +"\n0\n"
+
+if (hour < 18) {
+  greeting = "Good day";
+}
