@@ -15,3 +15,5 @@ let b = "0";
 alert( Boolean(b) ); // true
 
 alert(a == b); // true!
+
+alert( null === undefined );
