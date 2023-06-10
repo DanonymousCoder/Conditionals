@@ -16,4 +16,12 @@ alert( Boolean(b) ); // true
 
 alert(a == b); // true!
 
-alert( null === undefined );
+alert( null === undefined );//false
+
+5 > 4
+"apple" > "pineapple"
+"2" > "12"
+undefined == null
+undefined === null
+null == "\n0\n"
+null === +"\n0\n"
