@@ -29,3 +29,6 @@ null === +"\n0\n"
 if (hour < 18) {
   greeting = "Good day";
 }
+else {
+  greeting = "Good evening";
+}
