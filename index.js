@@ -4,3 +4,6 @@ console.log( 2 != 1 ); // true (correct)
 
 let result = 5 > 4; // assign the result of the comparison
 alert( result ); // true
+
+alert( true == 1 ); // true
+alert( false == 0 ); // true
