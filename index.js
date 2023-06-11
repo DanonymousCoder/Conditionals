@@ -164,4 +164,11 @@ if (cheese) {
 } else {
   console.log("No cheese on toast for you today.");
 }
+if (choice === "sunny") {
+  if (temperature < 86) {
+    para.textContent = `It is ${temperature} degrees outside — nice and sunny. Let's go out to the beach, or the park, and get an ice cream.`;
+  } else if (temperature >= 86) {
+    para.textContent = `It is ${temperature} degrees outside — REALLY HOT! If you want to go outside, make sure to put some sunscreen on.`;
+  }
+}
 
