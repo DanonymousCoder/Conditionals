@@ -80,7 +80,7 @@ if (hour < 10 || hour > 18) {
 }
 
 let firstName = "Ridwan";
-let lastName = "Baruwa";
+let lastName = "";
 let nickName = "SuperCoder";
 
 alert( firstName || lastName || nickName || "Anonymous"); // SuperCoder
