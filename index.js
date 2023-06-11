@@ -164,6 +164,7 @@ if (cheese) {
 } else {
   console.log("No cheese on toast for you today.");
 }
+let temperature = 50;
 if (choice === "sunny") {
   if (temperature < 86) {
     para.textContent = `It is ${temperature} degrees outside — nice and sunny. Let's go out to the beach, or the park, and get an ice cream.`;
