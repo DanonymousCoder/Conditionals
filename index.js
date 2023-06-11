@@ -84,3 +84,6 @@ let lastName = "";
 let nickName = "SuperCoder";
 
 alert( firstName || lastName || nickName || "Anonymous"); // SuperCoder
+
+true || alert("not printed");
+false || alert("printed");
