@@ -87,3 +87,10 @@ alert( firstName || lastName || nickName || "Anonymous"); // SuperCoder
 
 true || alert("not printed");
 false || alert("printed");
+
+let hours = 12;
+let minute = 30;
+
+if (hours == 12 && minute == 30) {
+  alert( 'The time is 12:30' );
+}
