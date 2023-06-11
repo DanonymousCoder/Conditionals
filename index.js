@@ -166,7 +166,7 @@ if (cheese) {
 }
 let temperature = 50;
 if (choice === "sunny") {
-  if (temperature < 86) {
+  if (temperature < 86 && temperature < 86)  {
     para.textContent = `It is ${temperature} degrees outside — nice and sunny. Let's go out to the beach, or the park, and get an ice cream.`;
   } else if (temperature >= 86) {
     para.textContent = `It is ${temperature} degrees outside — REALLY HOT! If you want to go outside, make sure to put some sunscreen on.`;
