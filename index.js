@@ -97,6 +97,6 @@ if (hours == 12 && minute == 30) {
 if (1 && 0) { // evaluated as true && false
   alert( "won't work, because the result is falsy" );
 }
-let x = 1;
+let x2 = 1;
 
-if (x > 0) alert( 'Greater than zero!' );
+if (x2 > 0) alert( 'Greater than zero!' );
