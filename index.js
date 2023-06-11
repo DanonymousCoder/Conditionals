@@ -102,3 +102,4 @@ let x2 = 1;
 if (x2 > 0) alert( 'Greater than zero!' );
 
 alert( !true );
+alert( !!null );
