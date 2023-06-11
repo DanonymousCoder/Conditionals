@@ -69,3 +69,7 @@ switch (x) {
   default:
     text = "No value found";
 }
+
+if (1 || 0) { // works just like if( true || false )
+  alert( 'truthy!' );
+}
