@@ -100,3 +100,5 @@ if (1 && 0) { // evaluated as true && false
 let x2 = 1;
 
 if (x2 > 0) alert( 'Greater than zero!' );
+
+alert( !true );
