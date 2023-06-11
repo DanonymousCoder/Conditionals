@@ -79,7 +79,7 @@ if (hour < 10 || hour > 18) {
   alert( 'The office is closed.' );
 }
 
-let firstName = "Ridwanullah";
+let firstName = "Ridwan";
 let lastName = "Baruwa";
 let nickName = "SuperCoder";
 
